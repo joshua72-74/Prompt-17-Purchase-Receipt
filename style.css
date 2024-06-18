@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+
+    font-family: Helvetica;
+
+    background: url("https://static.vecteezy.com/system/resources/thumbnails/014/724/816/small_2x/abstract-black-triangular-background-with-gold-lines-free-vector.jpg");
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box{
+    width: 70%;
+    height: 80%;
+
+    /* background-color: yellow;    */
+    background: linear-gradient(to left, #000000d9, #0f9b0fdd);
+
+    border-radius: 50px;
+
+    display: flex;
+
+}
+
+.box-1{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: red; */
+}
+
+.box-1 img{
+    width: 400px;
+    height: auto;    
+
+    border: 10px solid gold;
+    border-radius: 10px;
+}
+
+
+/*  */
+
+
+.box-2{
+    width: 50%;
+    height: 100%;
+
+    /* background-color: blue; */
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.section{
+    border-bottom: 2px solid black;
+
+    width: 80%;
+
+    padding: 20px;
+
+    color: white;
+}
+
+.section>div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section span{
+    font-size: 20px;
+
+}
+
+.part-1{
+    margin-top: 40px;
+}
+
+.part-1 h1{
+    font-size: 40px;
+
+    color: gold;
+    margin-bottom: 10px;
+}
+
+.part-1 p{
+    font-size: 20px;
+
+    color: rgb(204, 174, 136);
+}
+
+
+.part-2{
+    padding-bottom: 30px;
+}
+
+.part-2 h1{
+    margin: 20px 0 10px 0;
+    color: antiquewhite;
+
+}
+
+
+.part-3 span{
+    font-size: 30px;
+
+    color: rgb(252, 217, 172);
+}
